@@ -6,11 +6,11 @@
   }
 }
 
-@mixin pos-center-y($type: abscolute) {
+@mixin pos-center-y($type: absolute) {
   @if ($type == fixed or $type == absolute) {
     position: $type;
     top: 50%;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
   }
 }
 
